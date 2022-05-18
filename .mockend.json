@@ -1,0 +1,505 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "themes": {
+      "_links": {
+        "self": {
+          "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes"
+        }
+      },
+      "_embedded": {
+        "themes": [
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/0e95799f-a488-4808-a711-07cd3558c812"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "0e95799f-a488-4808-a711-07cd3558c812",
+            "template": "default",
+            "default": false,
+            "configuration": {
+              "logoType": "NONE",
+              "backgroundColor": "#ededed",
+              "backgroundType": "COLOR",
+              "bodyTextColor": "#686f77",
+              "cardColor": "#ffffff",
+              "headingTextColor": "#686f77",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#2996cc",
+              "buttonTextColor": "#ffffff",
+              "name": "Ping Default"
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/2d3c982b-06a6-42fc-876b-cfbaf9947381"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "2d3c982b-06a6-42fc-876b-cfbaf9947381",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/b3c5e1f0-2dc3-4ecc-9534-4eeb60e4554c_3ff07edb-a76c-46ca-9506-0c7eb87ffc6b_original.png",
+                "id": "b3c5e1f0-2dc3-4ecc-9534-4eeb60e4554c"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/1000bf13-7f7e-4f0b-bbcd-d88925547d88_417cc8e2-8c53-4404-89c7-ea7a404d3cb0_original.png",
+                "id": "1000bf13-7f7e-4f0b-bbcd-d88925547d88"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#222686",
+              "buttonTextColor": "#ffffff",
+              "name": "ADS",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/3f0b577d-b5fa-45bb-ad3e-f674397cbf13"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "3f0b577d-b5fa-45bb-ad3e-f674397cbf13",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/7bdcec43-17fc-4142-adb0-d3d40c12a128_8cb9e19e-71ee-47f7-98d6-7142619137ff_original.png",
+                "id": "7bdcec43-17fc-4142-adb0-d3d40c12a128"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/c2bbae45-eb9c-4079-ad14-f4dbd910fcbb_21a10bb9-be3d-4ef6-838c-69361d572370_original.png",
+                "id": "c2bbae45-eb9c-4079-ad14-f4dbd910fcbb"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#722382",
+              "buttonTextColor": "#ffffff",
+              "name": "CRL",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/404e5ac2-48fa-4c91-8c26-8294c877695d"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "404e5ac2-48fa-4c91-8c26-8294c877695d",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/24c1e308-584e-4c3d-a371-8c1718aad02c_643d2f94-7245-419a-830c-78fe4e1e4be0_original.png",
+                "id": "24c1e308-584e-4c3d-a371-8c1718aad02c"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/bb5808d9-c5ef-4fa5-ab45-bf3d7992395c_7860a7fd-29d4-4718-8b1b-472e869e7a73_original.png",
+                "id": "bb5808d9-c5ef-4fa5-ab45-bf3d7992395c"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#ad1628",
+              "buttonTextColor": "#ffffff",
+              "name": "PoV",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/472bd672-2097-42c7-b162-8770dec85903"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "472bd672-2097-42c7-b162-8770dec85903",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/859b7dd5-044d-466d-a0ea-f9f46076a70a_a307eee0-255e-4d35-a618-cf07467ea209_original.png",
+                "id": "859b7dd5-044d-466d-a0ea-f9f46076a70a"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/b295ec5a-b772-4dd2-b5e1-ac31e12ec6da_9bb49ab6-3967-413c-8428-6153c83904d2_original.png",
+                "id": "b295ec5a-b772-4dd2-b5e1-ac31e12ec6da"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#e30d0d",
+              "buttonTextColor": "#ffffff",
+              "name": "Mural2",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/53207a0f-bd47-4440-8e2d-74bc0c51ab77"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "53207a0f-bd47-4440-8e2d-74bc0c51ab77",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/94c4dd90-c012-4a94-b28e-5bad3c8f8c1c_c198c81a-97b0-4f75-81e9-59cc93538a69_original.png",
+                "id": "94c4dd90-c012-4a94-b28e-5bad3c8f8c1c"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/2767d20b-8fe8-4fde-bfdd-78e2ca0ebd89_9e4c7121-0798-48a4-861d-b1ba8756377e_original.png",
+                "id": "2767d20b-8fe8-4fde-bfdd-78e2ca0ebd89"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#242d65",
+              "buttonTextColor": "#ffffff",
+              "name": "ORTelligence",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/5dd9f309-70f4-451b-87ea-b0b7dae5ad7f"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "5dd9f309-70f4-451b-87ea-b0b7dae5ad7f",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/9a5b3d3c-e6b8-4cff-aede-e9c785c84634_143a3c4a-9dc3-4679-bd06-afcd2a1e5864_original.png",
+                "id": "9a5b3d3c-e6b8-4cff-aede-e9c785c84634"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/c175c6a2-0ba1-4da3-9fdb-5064c5012f73_0d08e9a2-b8d1-4572-bf87-33a09bd30090_original.png",
+                "id": "c175c6a2-0ba1-4da3-9fdb-5064c5012f73"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#61b375",
+              "buttonTextColor": "#ffffff",
+              "name": "Dillards",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/84e0b073-bdae-4169-94f7-face5ba166a2"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "84e0b073-bdae-4169-94f7-face5ba166a2",
+            "template": "slate",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/745f6d4b-2902-43c4-b832-a3824a272a18_46356c10-8707-40a8-9403-0c40bce8f097_original.png",
+                "id": "745f6d4b-2902-43c4-b832-a3824a272a18"
+              },
+              "backgroundColor": "#e28989",
+              "backgroundType": "COLOR",
+              "bodyTextColor": "#4C4C4C",
+              "cardColor": "#FFFFFF",
+              "headingTextColor": "#151952",
+              "linkTextColor": "#5F5F5F",
+              "buttonColor": "#4A4A4A",
+              "buttonTextColor": "#FFFFFF",
+              "name": "Slate",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/851336a8-d2ce-42ca-88fc-aa0d19c77662"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "851336a8-d2ce-42ca-88fc-aa0d19c77662",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/fbb6e1a3-c2c5-4935-8e97-f3d008001937_a72a4369-ef08-4499-98a1-ab40ffff1bc9_original.png",
+                "id": "fbb6e1a3-c2c5-4935-8e97-f3d008001937"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/622f4e9e-5d28-4409-b0c1-9e88b6d400fc_abc61038-074b-46c1-8009-11d247132d94_original.png",
+                "id": "622f4e9e-5d28-4409-b0c1-9e88b6d400fc"
+              },
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#53dc70",
+              "buttonTextColor": "#ffffff",
+              "name": "MFin",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/a13707b8-74f3-47e4-9432-5e28e44963c5"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "a13707b8-74f3-47e4-9432-5e28e44963c5",
+            "template": "default",
+            "default": true,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://d3uinntk0mqu3p.cloudfront.net/branding/market/a3d073bc-3108-49ad-b96c-404bea59a1d0.png",
+                "id": "00000000-0000-0000-0000-000000000000"
+              },
+              "applicationBackgroundColor": "#f8f8f8",
+              "backgroundColor": "#ffffff",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/2c816e16-3243-4495-80db-efcdb34011a2_2ec2bbfb-f9ee-4c47-bbff-130dc8be6948_original.png",
+                "id": "2c816e16-3243-4495-80db-efcdb34011a2"
+              },
+              "bodyTextColor": "#686f77",
+              "cardColor": "#0b28da",
+              "headingTextColor": "#686f77",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#cc2962",
+              "buttonTextColor": "#ffffff",
+              "name": "test1",
+              "footer": "test"
+            },
+            "modified": "2022-04-25T16:51:21.319Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/bf9b5cde-2d40-4c27-8f8d-969b6c953f7d"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "bf9b5cde-2d40-4c27-8f8d-969b6c953f7d",
+            "template": "slate",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/9fc180ab-12be-4ce3-ace3-fca0ae8d1e62_0e447ccb-1d77-4ec5-815a-ed0c32bb1e45_original.png",
+                "id": "9fc180ab-12be-4ce3-ace3-fca0ae8d1e62"
+              },
+              "backgroundColor": "",
+              "backgroundType": "IMAGE",
+              "backgroundImage": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/40315f1f-fce5-4322-8ff9-c1a9a19a9661_d15e9578-8e01-4899-a14b-ef7e0a4e5161_original.png",
+                "id": "40315f1f-fce5-4322-8ff9-c1a9a19a9661"
+              },
+              "bodyTextColor": "#4C4C4C",
+              "cardColor": "#FFFFFF",
+              "headingTextColor": "#4A4A4A",
+              "linkTextColor": "#5F5F5F",
+              "buttonColor": "#4A4A4A",
+              "buttonTextColor": "#FFFFFF",
+              "name": "Slate",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/d6a2ea50-24cb-4b64-b91a-40316e5190b4"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "d6a2ea50-24cb-4b64-b91a-40316e5190b4",
+            "template": "slate",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/66865f91-f559-408f-95df-13f02f2e8fd4_f4442ca0-b454-4857-aa47-f1181cc54188_original.png",
+                "id": "66865f91-f559-408f-95df-13f02f2e8fd4"
+              },
+              "backgroundColor": "",
+              "backgroundType": "DEFAULT",
+              "bodyTextColor": "#4C4C4C",
+              "cardColor": "#FFFFFF",
+              "headingTextColor": "#4A4A4A",
+              "linkTextColor": "#5F5F5F",
+              "buttonColor": "#053069",
+              "buttonTextColor": "#FFFFFF",
+              "name": "Slate",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes/dc0ba62d-da51-438b-886a-1157531170dd"
+              },
+              "environment": {
+                "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244"
+              }
+            },
+            "environment": {
+              "id": "2ecee4b5-66f2-4216-b400-92c156d5f244"
+            },
+            "id": "dc0ba62d-da51-438b-886a-1157531170dd",
+            "template": "mural",
+            "default": false,
+            "configuration": {
+              "logoType": "IMAGE",
+              "logo": {
+                "href": "https://uploads.pingone.com/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/images/bc636b5a-f0e2-41f7-8fdd-f2310f535640_e32dacba-cd9d-414f-9c53-9a068db8b689_original.png",
+                "id": "bc636b5a-f0e2-41f7-8fdd-f2310f535640"
+              },
+              "backgroundColor": "#18588c",
+              "backgroundType": "COLOR",
+              "bodyTextColor": "#000000",
+              "cardColor": "#fcfcfc",
+              "headingTextColor": "#000000",
+              "linkTextColor": "#2996cc",
+              "buttonColor": "#61b375",
+              "buttonTextColor": "#ffffff",
+              "name": "Mural",
+              "footer": ""
+            },
+            "modified": "2022-04-25T16:50:51.448Z"
+          }
+        ]
+      },
+      "size": "13"
+    },
+  "profile": {
+    "name": "typicode"
+  }
+}
