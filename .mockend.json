@@ -1,19 +1,5 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "themes": {
+  "Theme": {
       "_links": {
         "self": {
           "href": "https://api.pingone.com/v1/environments/2ecee4b5-66f2-4216-b400-92c156d5f244/themes"
@@ -498,8 +484,5 @@
         ]
       },
       "size": "13"
-    },
-  "profile": {
-    "name": "typicode"
-  }
+    }
 }
